@@ -1,0 +1,19 @@
+---
+title: "Using_the_jollof_package"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Using_the_jollof_package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(jollof)
+```
