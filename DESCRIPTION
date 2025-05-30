@@ -1,0 +1,61 @@
+Package: jollof
+Type: Package
+Title: A Bayesian statistical model-based approach forsmall area population disaggregation by demographic characteristics 
+Version: 0.3.0
+Authors@R: c(
+ person("Chibuzor Christopher", "Nnanatu", 
+         email = "cc.nnanatu@soton.ac.uk",
+         role = c("aut", "cre"),
+         comment = c(ORCID = "0000-0002-5841-3700")),
+ person("Somnath", "Chaudhuri", 
+         role = "aut",
+         comment = c(ORCID = "0000-0002-7270-941X")),
+  person("Andrew J.", "Tatem", 
+         role = "aut",
+         comment = c(ORCID = "0000-0002-7270-941X")))
+Description: This package uses adavanced statistical modelling appraoches to automatically disaggregate small area total population estimates by demographic groups (e.g., sex, age, educational level) with estimates of uncertainty.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    dplyr,
+    ggplot2,
+    utils,
+    sf,
+    tibble,
+    ggpubr,
+    httr,
+    tidyr
+Suggests: 
+    testthat (>= 3.0.0),
+    httr
+    stats,
+    stringr,
+    scales,
+    glue,
+    haven,
+    here,
+    rstudioapi,
+    geodata,
+    pbmcapply, 
+    future,
+    future.apply,
+    purrr,
+    rdhs,
+    rlang,
+    pak,
+    sp,
+    automap,
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown,
+    matrixStats,
+    mockery,
+    gstat,
+    RcppEigen
+RoxygenNote: 7.3.2
+VignetteBuilder: knitr
+Config/testthat/edition: 3
+URL: https://github.com/wpgp/jollof
+BugReports: https://github.com/wpgp/jollof/issues 
+Depends: R (>= 4.4.2)
