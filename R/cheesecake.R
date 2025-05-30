@@ -233,7 +233,5 @@ cheesecake <-function(df, output_dir)# disaggregates by age and sex - no covaria
 
 #githublink <- "https://raw.github.com/wpgp/CheeseCake/main/example_data.Rdata"
 #load(url(githublink))
-#dat <- read.csv("C:/Users/ccn1r22/OneDrive - University of Southampton/Documents/packages/example_data.csv")
-#output_dir <- "C:/Users/ccn1r22/OneDrive - University of Southampton/Documents/packages/output5"
 #output_dir <- tempdir()# please specify your output folder here
 #system.time(age_dis <- cheesecake(example_data,output_dir))
